@@ -1,0 +1,57 @@
+.dashboard-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.dashboard-title {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.actions-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar {
+    width: 30%;
+}
+
+.dashboard-title {
+    margin: 0;
+}
+
+.sort-icon {
+    cursor: pointer;
+    margin-left: 5px;
+    color: black;
+}
+
+th a {
+    color: black;
+    text-decoration: none;
+}
+
+th a:hover {
+    text-decoration: none;
+}
+
+.thumbnail {
+    width: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.add-button {
+    margin-bottom: 20px;
+}
+
+.bg-primary-custom {
+    background-color: #007bff;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: white;
+}

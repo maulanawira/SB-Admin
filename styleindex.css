@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Mengganti font ke Arial atau font umum lainnya */
+}
+
+.bg {
+    position: relative;
+    height: 100%;
+    background-image: url('images/background2.jpg'); /* Ganti dengan path gambar buku Anda */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-container {
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang putih dengan sedikit transparansi */
+    padding: 10px 20px; /* Padding di sekitar teks */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.welcome-text {
+    color: black; /* Ubah warna teks selamat datang menjadi hitam */
+    font-family: 'Arial', sans-serif; /* Ganti dengan font umum yang sesuai */
+    margin: 0; /* Hilangkan margin default pada heading */
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
